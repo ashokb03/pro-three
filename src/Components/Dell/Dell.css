@@ -1,0 +1,100 @@
+.h5{
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.h5 h1{
+    font-size: 55px;
+    color:#32CD30;
+}
+
+.h5 p{
+    font-size: 25px;
+}
+
+.i5 img{
+    margin-top: 2%;
+    height: 570px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.p5{
+    margin: 10px;
+    margin-top: 5%;
+    text-align: center;
+    color:#32CD30;
+}
+
+
+.b5{
+    margin-top:5%;
+}
+
+
+.r5{
+    justify-content: center;
+    gap:15%;
+}
+
+.r5 .c5{
+    margin-bottom: 5%;
+    background: #32CD30;
+    height: 55vh;
+
+}
+
+
+.c5 img{
+    margin-top: 5%;
+    height: 45vh;
+
+}
+
+.c5 h5{
+    margin-top: 9%;
+    color:white;
+    
+}
+
+.c5 button{
+    margin-top: 5%;
+    margin-bottom: 11%;
+    width: 65px;
+    height: 35px;
+}
+
+.c5 a{
+    text-decoration: none;
+    color:#32CD30;
+
+}
+
+.s5{
+    margin-top: 5%;
+    display: flex;
+    gap:7%;
+}
+
+
+.s5 h1{
+    color: #32CD30;
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+
+.d5 p{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+

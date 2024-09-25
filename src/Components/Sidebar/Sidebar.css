@@ -1,0 +1,48 @@
+.bar{
+    background: #A16AE8;
+    width: 10%;
+    height: 100vh;
+    top:0;
+    position: fixed;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 11%;
+    box-shadow: inset -1px -1px 11px 5px rgba(0, 0, 0, 0.5);
+
+    /* box-shadow: [horizontal offset] [vertical offset] [blur radius] [spread radius] [color]; */
+    
+}
+
+
+.link1{
+    display: flex;
+    align-items: center;
+    cursor: pointer; 
+    margin-bottom: 21%;
+    gap:2px;
+    border: 1px black solid;
+    padding: 7px;
+    
+}
+
+.link1:hover{
+    color: white;
+    border: 1px white solid;
+}
+
+.link2{
+    display: flex;
+    align-items: center;
+    margin-top: 160%;
+    cursor: pointer; 
+    gap:3px;
+    color:white;
+}
+
+.link2:hover{
+    color: black;
+}
+
+
+
+

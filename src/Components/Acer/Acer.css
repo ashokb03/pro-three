@@ -1,0 +1,100 @@
+.h4{
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.h4 h1{
+    font-size: 55px;
+    color:#FAD02C;
+}
+
+.h4 p{
+    font-size: 25px;
+}
+
+.i4 img{
+    margin-top: 2%;
+    height: 570px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.p4{
+    margin: 10px;
+    margin-top: 5%;
+    text-align: center;
+    color:#FAD02C;
+}
+
+
+.b4{
+    margin-top:5%;
+}
+
+
+.r4{
+    justify-content: center;
+    gap:15%;
+}
+
+.r4 .c4{
+    margin-bottom: 5%;
+    background: #FAD02C;
+    height: 55vh;
+
+}
+
+
+.c4 img{
+    margin-top: 5%;
+    height: 45vh;
+
+}
+
+.c4 h5{
+    margin-top: 9%;
+    color:white;
+    
+}
+
+.c4 button{
+    margin-top: 5%;
+    margin-bottom: 11%;
+    width: 65px;
+    height: 35px;
+}
+
+.c4 a{
+    text-decoration: none;
+    color:#FAD02C;
+
+}
+
+.s4{
+    margin-top: 5%;
+    display: flex;
+    gap:7%;
+}
+
+
+.s4 h1{
+    color: #FAD02C;
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+
+.d4 p{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+

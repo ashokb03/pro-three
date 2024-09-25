@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.box{
+    position: relative;
+    width: 420px;
+    height: 450px;
+    background: #A16AE8;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    transition: height .2s ease;
+}
+
+.box.active{
+    height: 520px;
+}
+
+.box .form-box{
+    width: 100%;
+    padding: 40px;
+}
+
+/* 2nd box start */
+
+
+.box .form-box.login{
+    transition: translate .18s ease;
+    translate: 0;
+}
+
+
+.box.active .form-box.login{
+    transition: none;
+    translate: -400px;
+}
+
+
+/* don't split two classnames 
+or u'll got wrong output -> here */
+
+.box .form-box.signup{   /* here */
+    position: absolute;
+    transition: none;
+    translate: 400px;
+}
+
+
+.box.active .form-box.signup{
+    transition: translate .18s ease;
+    translate: 0;
+}
+
+
+
+/* 2nd box end*/
+
+
+form h1{
+    color:black;
+    font-size: 36px;
+    text-align: center;
+}
+
+form .ip{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.ip input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px white solid;
+    border-radius: 40px;
+    font-size: 16px;
+    color:white;
+    padding: 20px 45px 20px 20px;
+}
+
+.ip input::placeholder{
+    color: white;
+}
+
+.ip .icon{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    translate: 0 -50%;
+    font-size: 16px;
+}
+
+form .fp{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: -15px 0 15px;
+}
+
+
+.fp label input{
+    accent-color: white;
+    margin-right: 4px;
+}
+
+.fp a{
+    color: white;
+    text-decoration: none;
+}
+
+.fp a:hover{
+    text-decoration: underline;
+}
+
+form button{
+    width: 100%;
+    height: 45px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    font-weight: 700;
+}
+
+form .su{
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0 15px;
+} 
+
+.su p a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.su p a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

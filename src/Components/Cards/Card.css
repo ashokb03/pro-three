@@ -1,0 +1,50 @@
+.cd{
+    margin-top: 5%;
+}
+
+.hg{
+    margin-top: 6%;
+    margin-bottom: 6%;
+    text-align: center;
+}
+
+
+.ro{
+    justify-content: center;
+    gap:15%;
+}
+
+.ro .ca{
+    margin-bottom: 5%;
+    background: #A16AE8;
+    height: 55vh;
+
+}
+
+.ca img{
+    margin-top: 5%;
+    height: 45vh;
+
+}
+
+.ca h5{
+    margin-top: 9%;
+    color:white;
+    
+}
+
+.ca button{
+    margin-top: 5%;
+    margin-bottom: 11%;
+    width: 65px;
+    height: 35px;
+}
+
+.ca a{
+    text-decoration: none;
+    color:#A16AE8;
+
+}
+
+
+

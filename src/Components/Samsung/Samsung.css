@@ -1,0 +1,100 @@
+.h3{
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.h3 h1{
+    font-size: 55px;
+    color:tomato;
+}
+
+.h3 p{
+    font-size: 25px;
+}
+
+.i3 img{
+    margin-top: 2%;
+    height: 570px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.p3{
+    margin: 10px;
+    margin-top: 5%;
+    text-align: center;
+    color:tomato;
+}
+
+
+.b3{
+    margin-top:5%;
+}
+
+
+.r3{
+    justify-content: center;
+    gap:15%;
+}
+
+.r3 .c3{
+    margin-bottom: 5%;
+    background: tomato;
+    height: 55vh;
+
+}
+
+
+.c3 img{
+    margin-top: 5%;
+    height: 45vh;
+
+}
+
+.c3 h5{
+    margin-top: 9%;
+    color:white;
+    
+}
+
+.c3 button{
+    margin-top: 5%;
+    margin-bottom: 11%;
+    width: 65px;
+    height: 35px;
+}
+
+.c3 a{
+    text-decoration: none;
+    color:tomato;
+
+}
+
+.s3{
+    margin-top: 5%;
+    display: flex;
+    gap:7%;
+}
+
+
+.s3 h1{
+    color: tomato;
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+
+.d3 p{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
